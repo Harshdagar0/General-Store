@@ -9,7 +9,7 @@ const Products = () => {
   useEffect(() => {
     const fetchdata = async () => {
       try {
-        const res = await fetch('http://localhost:3003');
+        const res = await fetch('https://general-store-back.onrender.com');
         const data = await res.json();
         setfiltered(data);
 
