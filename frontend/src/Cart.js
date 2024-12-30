@@ -14,7 +14,7 @@ const Cart = () => {
     if(logindata){
       const fetchdata = async () => {
         try {
-          const res = await fetch('http://localhost:3003/send',{
+          const res = await fetch('https://general-store-back.onrender.com/send',{
             method: "POST",
             body: JSON.stringify({logindata} ),
             headers:{
