@@ -8,7 +8,7 @@ function  FeatureProduct() {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const res = await fetch('https://general-store-back.onrender.com');
+                const res = await fetch('https://general-store-six.vercel.app/');
                 const data = await res.json();
                 let i = 0;
                 for (i = 0; i < data.length; i++) {
