@@ -24,7 +24,7 @@ function Login() {
             password: password
         };
 
-        const res = await fetch("https://general-store-back.onrender.com/login", {
+        const res = await fetch("https://general-store-six.vercel.app/", {
             method: "POST",
             body: JSON.stringify(logindetails),
             headers: {
