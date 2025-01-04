@@ -32,7 +32,7 @@ function Register() {
         email: email,
         password: password,
       };
-        const response = await fetch('https://general-store-back.onrender.com/register',{
+        const response = await fetch('https://general-store-six.vercel.app/',{
         method:'POST',
         body:JSON.stringify(userInfo),
         headers:{
